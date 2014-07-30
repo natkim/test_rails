@@ -1,10 +1,10 @@
 <h1> Edit User </h1>
 
-<form action="/update_user/ <@= p.id %>">
+<form action="/update_user/<%= @p.id %>">
   <input type="text" name="name" placeholder="Enter Name" value="<%= @p.name %>">
   <input type="text" name="title" placeholder="Enter Subname" value="<%= @p.title %>">
-  <input type="url" name="picture" placeholder="Enter Image Url" value="<%= @p.picture %>">
-  <input type="text" name="text" placeholder="Enter Text" value="<% @p.text %>">
+  <input type="url" name="picture" placeholder="Enter Picutre URL" value="<%= @p.picture%>">
+  <input type="text" name="text" placeholder="Enter Text" value="<%= @p.text %>">
   <input type="text" name="location" placeholder="Enter Location" value="<%= @p.location %>">
   <input type="submit">
 </form>

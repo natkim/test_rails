@@ -9,11 +9,11 @@ Rails.application.routes.draw do
   
   
   #Updating
-  get '/user/:id/edit' => 'application#edit'
-  get'/updeate_user/:id' => 'application#update'
+  get '/user/:id/edit' => 'applicaiton#edit'
+  get'/update_user/:id' => 'application#update'
   
   #Deleting
-  get '/users/:id/destroy' => 'application#destroy'
+  get '/user/:id/destroy' => 'application#destroy'
 
 
 end
